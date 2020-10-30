@@ -20,6 +20,7 @@ jobs:
        with:
          subdomain: "paritytech"
          api_token: ${{ secrets.BAMBOOHR_API_TOKEN }}
+         employee_list: "111,763,96"
          people_in_today: false
          people_out_today: true
          bamboo_fields: "firstName,lastName"

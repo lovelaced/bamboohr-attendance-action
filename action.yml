@@ -22,6 +22,10 @@ inputs:
     description: "any fields, comma separated, you want to retrieve from the BambooHR API"
     default: "firstName,lastName"
     required: true
+  employee_list:
+    description: "a list of BambooHR employee IDs to check for attendance status. Default is 0, which is the ID associated to the API token"
+    default: "0"
+    required: false
   from_date:
     description: "A linux `date` command to run to obtain the start date of attendance gathering"
     default: "date"
