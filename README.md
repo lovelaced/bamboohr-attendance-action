@@ -7,7 +7,7 @@ This is a simple github action to retrieve a list of information about who is ei
 Using the BambooHR API requires generating of an api token, which can be done by following the instructions [here](https://documentation.bamboohr.com/docs/getting-started).
 
 ```workflow
-name: Every weekday morning, gather a list of people who are OOO today
+name: Every weekday morning at 9AM gather a list of people who are OOO today
 on:
   schedule:
     - cron: '0 0 9 ? * MON-FRI *'
