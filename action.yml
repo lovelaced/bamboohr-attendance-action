@@ -13,11 +13,11 @@ inputs:
   people_in_today:
     description: "Set to true to include people who are in the office today"
     default: ""
-    required: true
+    required: false
   people_out_today:
     description: "Set to true to include people who are in the office today"
     default: ""
-    required: true
+    required: false
   bamboohr_fields:
     description: "any fields, comma separated, you want to retrieve from the BambooHR API"
     default: "firstName,lastName"
