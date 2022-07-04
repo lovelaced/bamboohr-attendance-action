@@ -1,7 +1,7 @@
 #!/bin/sh
 
-from="$($INPUT_FROM_DATE --iso-8601=date)"
-to="$($INPUT_TO_DATE --iso-8601=date)"
+from="$($INPUT_FROM_DATE -Idate)"
+to="$($INPUT_TO_DATE -Idate)"
 
 input_employees="$INPUT_EMPLOYEE_LIST"
 input_employees=$(echo $input_employees | tr "," "\n")
