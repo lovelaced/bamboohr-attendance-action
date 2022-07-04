@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 from="$($INPUT_FROM_DATE --iso-8601=date)"
 to="$($INPUT_TO_DATE --iso-8601=date)"
