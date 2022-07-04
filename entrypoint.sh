@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 from="$($INPUT_FROM_DATE -Idate)"
 to="$($INPUT_TO_DATE -Idate)"
